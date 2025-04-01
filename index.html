@@ -1,548 +1,711 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PostPilot - Marketing Channel</title>
     <!-- Include Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts for a similar cursive font -->
-    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        /* Custom cursive font for emphasized text */
-        .cursive {
-            font-family: 'Sacramento', cursive;
-        }
+      /* Custom cursive font for emphasized text */
+      .cursive {
+        font-family: "Sacramento", cursive;
+      }
     </style>
-</head>
-<body class="font-sans bg-cyan-100">
+  </head>
+  <body class="font-sans bg-cyan-100">
     <!-- Navigation Bar -->
-    <nav class="bg-white shadow-md">
-        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <!-- Logo -->
-            <div class="flex items-center">
-                <span class="text-teal-500 text-2xl mr-2">📧</span> <!-- Placeholder for envelope icon -->
-                <span class="text-2xl font-bold">PostPilot</span>
-            </div>
-            <!-- Navigation Links -->
-            <div class="hidden md:flex space-x-6 items-center">
-                <div class="relative group">
-                    <a href="#" class="text-gray-600 hover:text-gray-900">Resources ▼</a>
-                    <!-- Dropdown (hidden by default, shown on hover) -->
-                    <div class="absolute hidden group-hover:block bg-white shadow-md rounded-md mt-2">
-                        <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Blog</a>
-                        <a href="#" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Guides</a>
-                    </div>
-                </div>
-                <a href="#" class="text-gray-600 hover:text-gray-900">Success stories</a>
-                <a href="#" class="text-gray-600 hover:text-gray-900">Company</a>
-                <a href="#" class="text-gray-600 hover:text-gray-900">Pricing</a>
-            </div>
-            <!-- Buttons -->
-            <div class="flex space-x-4">
-                <button class="border border-gray-300 text-gray-600 px-4 py-2 rounded-md hover:bg-gray-100">Login</button>
-                <button class="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600">Create free account</button>
-            </div>
+    <nav class="bg-white shadow-md fixed w-full z-10">
+      <div
+        class="container mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <!-- Logo -->
+        <div class="flex items-center">
+          <img src="./assets/logo.svg" alt="" />
+          <!-- <span class="text-teal-500 text-2xl mr-2"
+            >📧</span>
+          <span class="text-2xl font-bold">PostPilot</span> -->
         </div>
+        <!-- Navigation Links -->
+        <div class="hidden md:flex space-x-6 items-center">
+          <div class="relative group">
+            <a href="#" class="text-gray-600 hover:text-gray-900">Resources</a>
+            <!-- Dropdown (hidden by default, shown on hover) -->
+            <div
+              class="absolute hidden group-hover:block bg-white shadow-md rounded-md mt-2"
+            >
+              <a
+                href="#"
+                class="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+                >Blog</a
+              >
+              <a
+                href="#"
+                class="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+                >Guides</a
+              >
+            </div>
+          </div>
+          <a href="#" class="text-gray-600 hover:text-gray-900"
+            >Success stories</a
+          >
+          <a href="#" class="text-gray-600 hover:text-gray-900">Company</a>
+          <a href="#" class="text-gray-600 hover:text-gray-900">Pricing</a>
+        </div>
+        <!-- Buttons -->
+        <div class="flex space-x-4">
+          <button
+            class="border border-gray-300 text-gray-600 px-4 py-2 rounded-md hover:bg-gray-100"
+          >
+            Login
+          </button>
+          <button
+            class="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600"
+          >
+            Create free account
+          </button>
+        </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="py-16">
-        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
-            <!-- Left Side: Text Content -->
-            <div class="md:w-1/2">
-                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-                    Meet your <span class="cursive text-teal-500 text-5xl">favorite new</span> (old) marketing channel.
-                </h1>
-                <p class="mt-4 text-lg text-gray-600">
-                    Remarkable results. Easier than email. Postcard marketing reinvented for modern ecommerce.
-                </p>
-                <div class="mt-6 flex items-center space-x-4">
-                    <button class="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 text-lg font-semibold">
-                        TRY IT RISK-FREE
-                    </button>
-                    <div class="flex items-center">
-                        <span class="text-yellow-400 text-xl">★ ★ ★ ★ ★</span>
-                        <span class="ml-2 text-gray-600">5.0 Shopify Rating</span>
-                    </div>
-                </div>
+      <div
+        class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between"
+      >
+        <!-- Left Side: Text Content -->
+        <div class="md:w-1/2 wrap">
+          <h1
+            class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-12"
+          >
+            Meet your
+            <span class="cursive text-teal-500 text-5xl">favorite new</span>
+            (old) marketing channel.
+          </h1>
+          <p class="mt-4 text-lg text-gray-600 w-11/12 mb-12">
+            Remarkable results. Easier than email. Postcard marketing reinvented
+            for modern ecommerce.
+          </p>
+          <div class="mt-6 flex items-center space-x-4">
+            <button
+              class="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 text-lg font-semibold"
+            >
+              TRY IT RISK-FREE
+            </button>
+            <div class="flex items-center">
+              <span class="text-yellow-400 text-xl">★ ★ ★ ★ ★</span>
+              <span class="ml-2 text-gray-600">5.0 Shopify Rating</span>
             </div>
-            <!-- Right Side: Image and Graphics -->
-            <div class="md:w-1/2 mt-8 md:mt-0 relative">
-                <!-- Placeholder for the postcard image -->
-                <div class="bg-gray-200 h-64 md:h-96 flex items-center justify-center rounded-md">
-                    <p class="text-gray-500">[Postcard Image Placeholder: "MAKE MEAT AGAIN!" with products]</p>
-                </div>
-                <!-- Testimonial Badge -->
-                <div class="absolute top-0 right-0 bg-white rounded-full p-4 shadow-md flex items-center">
-                    <div class="w-12 h-12 bg-gray-200 rounded-full mr-2"></div> <!-- Placeholder for testimonial image -->
-                    <span class="text-gray-600">180 day win-back</span>
-                </div>
-                <!-- ROI Statistic -->
-                <div class="absolute bottom-0 right-0 bg-white rounded-md p-4 shadow-md">
-                    <p class="text-gray-600">RETURN ON INVEST</p>
-                    <p class="text-2xl font-bold text-gray-900">2345.97%</p>
-                    <div class="flex space-x-1 mt-2">
-                        <div class="bg-teal-500 h-8 w-4"></div>
-                        <div class="bg-teal-500 h-6 w-4"></div>
-                        <div class="bg-teal-500 h-4 w-4"></div>
-                        <div class="bg-teal-500 h-2 w-4"></div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <!-- Right Side: Image and Graphics -->
+        <div class="md:w-1/2 mt-8 md:mt-0 relative">
+          <img src="./assets/div.png" class="top-0 right-0 ml-52" />
+        </div>
+      </div>
     </section>
 
     <!-- Trusted by Thousands Section -->
-    <section class="py-16">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
-                Trusted by <span class="cursive text-teal-500 text-5xl">thousands</span> of top DTC brands.
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-12">
-                <!-- Run Gum -->
-                <div class="bg-gray-200 h-48 flex flex-col items-center justify-center rounded-md">
-                    <p class="text-gray-500">[Run Gum Postcard Placeholder]</p>
-                    <p class="mt-2 font-bold">RUNGUM</p>
-                </div>
-                <!-- Beardbrand -->
-                <div class="bg-gray-200 h-48 flex flex-col items-center justify-center rounded-md">
-                    <p class="text-gray-500">[Beardbrand Postcard Placeholder]</p>
-                    <p class="mt-2 font-bold">Beardbrand</p>
-                </div>
-                <!-- Promix -->
-                <div class="bg-gray-200 h-48 flex flex-col items-center justify-center rounded-md">
-                    <p class="text-gray-500">[Promix Postcard Placeholder]</p>
-                    <p class="mt-2 font-bold">PROMIX</p>
-                </div>
-                <!-- Scotch Porter -->
-                <div class="bg-gray-200 h-48 flex flex-col items-center justify-center rounded-md">
-                    <p class="text-gray-500">[Scotch Porter Postcard Placeholder]</p>
-                    <p class="mt-2 font-bold">Scotch Porter</p>
-                </div>
-            </div>
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
+          Trusted by
+          <span class="cursive text-teal-500 text-5xl">thousands</span> of top
+          DTC brands.
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-12">
+          <!-- Run Gum -->
+          <div
+            class="h-48 flex flex-col items-center justify-center rounded-md"
+          >
+            <img src="./assets/t1.png" alt="" />
+            <p class="mt-2 font-bold">RUNGUM</p>
+          </div>
+          <!-- Beardbrand -->
+          <div
+            class="h-48 flex flex-col items-center justify-center rounded-md"
+          >
+            <img src="./assets/t2.png" alt="" />
+            <p class="mt-2 font-bold">Beardbrand</p>
+          </div>
+          <!-- Promix -->
+          <div
+            class="h-48 flex flex-col items-center justify-center rounded-md"
+          >
+            <img src="./assets/t3.png" alt="" />
+            <p class="mt-2 font-bold">PROMIX</p>
+          </div>
+          <!-- Scotch Porter -->
+          <div
+            class="h-48 flex flex-col items-center justify-center rounded-md"
+          >
+            <img src="./assets/t4.png" alt="" />
+            <p class="mt-2 font-bold">Scotch Porter</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Why Use Direct Mail Section -->
     <section class="py-16">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
-                Why use direct mail? It <span class="cursive text-teal-500 text-5xl">works like crazy</span>.
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
-                <!-- 28X Stat -->
-                <div>
-                    <h3 class="text-5xl font-bold text-gray-900">28X</h3>
-                    <p class="text-gray-600 mt-2">Higher response rate than email & digital</p>
-                </div>
-                <!-- 90% Stat -->
-                <div class="flex items-center justify-center">
-                    <div class="bg-orange-500 text-white p-4 rounded-md">
-                        <p class="text-2xl font-bold">90%</p>
-                        <p class="text-sm">direct mail</p>
-                    </div>
-                    <div class="bg-teal-500 text-white p-4 rounded-md ml-2">
-                        <p class="text-2xl font-bold">20%</p>
-                        <p class="text-sm">email</p>
-                    </div>
-                    <p class="text-gray-600 mt-2">Your messages get read</p>
-                </div>
-                <!-- 17 Days Stat -->
-                <div>
-                    <h3 class="text-5xl font-bold text-gray-900">17 Days</h3>
-                    <p class="text-gray-600 mt-2">Lifespan of a postcard vs. seconds for email & SMS</p>
-                </div>
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
+          Why use direct mail? It
+          <span class="cursive text-teal-500 text-5xl">works like crazy</span>.
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
+          <!-- 28X Stat -->
+          <div class="flex flex-col items-center justify-center rounded-md">
+            <h3 class="text-5xl font-bold text-gray-900">28X</h3>
+            <p class="text-gray-600 mt-2">
+              Higher response rate than email & digital
+            </p>
+          </div>
+          <!-- 90% Stat -->
+          <div class="flex flex-col items-center">
+            <div class="flex items-center space-x-4">
+              <div class="bg-orange-500 text-white p-2 rounded-md">
+                <p class="text-2xl font-bold">90%</p>
+                <p class="text-sm">direct mail</p>
+              </div>
+              <div class="bg-teal-500 text-white p-2 rounded-md ml-2">
+                <p class="text-2xl font-bold">20%</p>
+                <p class="text-sm">email</p>
+              </div>
             </div>
+
+            <p class="text-gray-600 mt-2">Your messages get read</p>
+          </div>
+          <!-- 17 Days Stat -->
+          <div>
+            <h3 class="text-5xl font-bold text-gray-900">17 Days</h3>
+            <p class="text-gray-600 mt-2">
+              Lifespan of a postcard vs. seconds for email & SMS
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- PostPilot Makes It Easy Section -->
-    <section class="py-16">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
-                PostPilot makes it a <span class="cursive text-teal-500 text-5xl">cinch</span> to send personalized, profit-generating postcards.
-            </h2>
-            <div class="mt-12 space-y-16">
-                <!-- Powerful Acquisition & Retention -->
-                <div class="flex flex-col md:flex-row items-center">
-                    <div class="md:w-1/2 text-left">
-                        <h3 class="text-3xl font-bold text-gray-900">
-                            <span class="cursive text-teal-500 text-4xl">POWERFUL</span> acquisition & retention
-                        </h3>
-                        <p class="text-gray-600 mt-4">
-                            Send one-off or triggered email campaigns with customers & prospects. Target with MailMatch™.
-                        </p>
-                    </div>
-                    <div class="md:w-1/2 mt-6 md:mt-0">
-                        <blockquote class="bg-white p-6 rounded-md shadow-md">
-                            <p class="text-gray-600 italic">
-                                “It’s like Klaviyo for direct mail. The results are absolutely insane.”
-                            </p>
-                            <p class="mt-4 text-gray-900 font-semibold">Ash Mehew, CMO</p>
-                            <p class="text-gray-600">Obvi</p>
-                        </blockquote>
-                    </div>
-                </div>
-                <!-- Fight Back Against iOS Updates -->
-                <div class="flex flex-col md:flex-row-reverse items-center">
-                    <div class="md:w-1/2 text-left">
-                        <h3 class="text-3xl font-bold text-gray-900">
-                            <span class="cursive text-teal-500 text-4xl">Fight back</span> against iOS updates, jacked-up CPCs & spam folders
-                        </h3>
-                        <p class="text-gray-600 mt-4">
-                            Deliver your message to 90% of your customers – for less than the cost of a click.
-                        </p>
-                    </div>
-                    <div class="md:w-1/2 mt-6 md:mt-0">
-                        <blockquote class="bg-white p-6 rounded-md shadow-md">
-                            <p class="text-gray-600 italic">
-                                “PostPilot is our new weapon against sinking email engagement and rising PPC costs. The results and ROI have been outstanding. It’s now one of our core marketing channels to increase acquisition & LTV.”
-                            </p>
-                            <p class="mt-4 text-gray-900 font-semibold">Keith Yerks, GM</p>
-                            <p class="text-gray-600">Obvi</p>
-                        </blockquote>
-                    </div>
-                </div>
-                <!-- Done For You -->
-                <div class="flex flex-col md:flex-row items-center">
-                    <div class="md:w-1/2 text-left">
-                        <h3 class="text-3xl font-bold text-gray-900">
-                            <span class="cursive text-teal-500 text-4xl">Done for</span> you
-                        </h3>
-                        <p class="text-gray-600 mt-4">
-                            From design & strategy to stamp-licking, our ecommerce experts help every step of the way.
-                        </p>
-                    </div>
-                    <div class="md:w-1/2 mt-6 md:mt-0">
-                        <blockquote class="bg-white p-6 rounded-md shadow-md">
-                            <p class="text-gray-600 italic">
-                                “The team is so knowledgeable and beyond helpful. I’m blown away by their communication, detail, and attentiveness and always feel like they have our best interest in mind. Definitely worth a try.”
-                            </p>
-                            <p class="mt-4 text-gray-900 font-semibold">Holly Davies, Marketing Director</p>
-                            <p class="text-gray-600">Paragon</p>
-                        </blockquote>
-                    </div>
-                </div>
+    <section class="py-16 bg-[#FDF3EA]">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
+          PostPilot makes it a
+          <span class="cursive text-teal-500 text-5xl">cinch</span> to send
+          personalized, profit-generating postcards.
+        </h2>
+        <div class="mt-12 space-y-16">
+          <!-- Powerful Acquisition & Retention -->
+          <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 text-left">
+              <h3 class="text-3xl font-bold text-gray-900">
+                <span class="cursive text-teal-500 text-4xl">POWERFUL</span>
+                acquisition & retention
+              </h3>
+              <p class="text-gray-600 mt-4">
+                Send one-off or triggered email campaigns with customers &
+                prospects. Target with MailMatch™.
+              </p>
             </div>
-            <!-- Call to Action Button -->
-            <div class="mt-12">
-                <button class="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 text-lg font-semibold">
-                    TRY IT RISK-FREE
-                </button>
+            <div class="md:w-1/2 mt-6 md:mt-0">
+              <blockquote class="bg-white p-6 rounded-md shadow-md">
+                <p class="text-gray-600 italic">
+                  “It’s like Klaviyo for direct mail. The results are absolutely
+                  insane.”
+                </p>
+                <p class="mt-4 text-gray-900 font-semibold">Ash Mehew, CMO</p>
+                <p class="text-gray-600">Obvi</p>
+              </blockquote>
             </div>
+          </div>
+          <!-- Fight Back Against iOS Updates -->
+          <div class="flex flex-col md:flex-row-reverse items-center">
+            <div class="md:w-1/2 text-left">
+              <h3 class="text-3xl font-bold text-gray-900">
+                <span class="cursive text-teal-500 text-4xl">Fight back</span>
+                against iOS updates, jacked-up CPCs & spam folders
+              </h3>
+              <p class="text-gray-600 mt-4">
+                Deliver your message to 90% of your customers – for less than
+                the cost of a click.
+              </p>
+            </div>
+            <div class="md:w-1/2 mt-6 md:mt-0">
+              <blockquote class="bg-white p-6 rounded-md shadow-md">
+                <p class="text-gray-600 italic">
+                  “PostPilot is our new weapon against sinking email engagement
+                  and rising PPC costs. The results and ROI have been
+                  outstanding. It’s now one of our core marketing channels to
+                  increase acquisition & LTV.”
+                </p>
+                <p class="mt-4 text-gray-900 font-semibold">Keith Yerks, GM</p>
+                <p class="text-gray-600">Obvi</p>
+              </blockquote>
+            </div>
+          </div>
+          <!-- Done For You -->
+          <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 text-left">
+              <h3 class="text-3xl font-bold text-gray-900">
+                <span class="cursive text-teal-500 text-4xl">Done for</span> you
+              </h3>
+              <p class="text-gray-600 mt-4">
+                From design & strategy to stamp-licking, our ecommerce experts
+                help every step of the way.
+              </p>
+            </div>
+            <div class="md:w-1/2 mt-6 md:mt-0">
+              <blockquote class="bg-white p-6 rounded-md shadow-md">
+                <p class="text-gray-600 italic">
+                  “The team is so knowledgeable and beyond helpful. I’m blown
+                  away by their communication, detail, and attentiveness and
+                  always feel like they have our best interest in mind.
+                  Definitely worth a try.”
+                </p>
+                <p class="mt-4 text-gray-900 font-semibold">
+                  Holly Davies, Marketing Director
+                </p>
+                <p class="text-gray-600">Paragon</p>
+              </blockquote>
+            </div>
+          </div>
         </div>
+        <!-- Call to Action Button -->
+        <div class="mt-12">
+          <button
+            class="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 text-lg font-semibold"
+          >
+            TRY IT RISK-FREE
+          </button>
+        </div>
+      </div>
     </section>
 
     <!-- Everything Your Brand Needs Section -->
     <section class="py-16">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
-                Everything your brand needs to make your brand <span class="cursive text-teal-500 text-5xl">unforgettable</span>.
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                <!-- Plug-and-play with your stack -->
-                <div class="bg-white p-6 rounded-md shadow-md">
-                    <div class="flex justify-center mb-4">
-                        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-                            <p class="text-gray-500">[Klaviyo/Shopify Icons]</p>
-                        </div>
-                    </div>
-                    <h3 class="text-xl font-semibold">Plug-and-play with your stack</h3>
-                    <p class="text-gray-600 mt-2">
-                        Native integrations provide seamless segmentation, automation and tracking. No clunky spreadsheets.
-                    </p>
-                </div>
-                <!-- Run campaigns on autopilot -->
-                <div class="bg-white p-6 rounded-md shadow-md">
-                    <div class="flex justify-center mb-4">
-                        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-                            <p class="text-gray-500">[Abandoned Cart Icon]</p>
-                        </div>
-                    </div>
-                    <h3 class="text-xl font-semibold">Run campaigns on autopilot</h3>
-                    <p class="text-gray-600 mt-2">
-                        Ink profits while you sleep. Just set it and forget it.
-                    </p>
-                </div>
-                <!-- Real-time ROI dashboard -->
-                <div class="bg-white p-6 rounded-md shadow-md">
-                    <div class="flex justify-center mb-4">
-                        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-                            <p class="text-gray-500">[ROI Dashboard Icon]</p>
-                        </div>
-                    </div>
-                    <h3 class="text-xl font-semibold">Real-time ROI dashboard</h3>
-                    <p class="text-gray-600 mt-2">
-                        Track performance of every postcard by customer or discount code. Your CFO will love it.
-                    </p>
-                </div>
-                <!-- Deliver WOW with *real* handwritten cards -->
-                <div class="bg-white p-6 rounded-md shadow-md">
-                    <div class="flex justify-center mb-4">
-                        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-                            <p class="text-gray-500">[Handwritten Card Icon]</p>
-                        </div>
-                    </div>
-                    <h3 class="text-xl font-semibold">Deliver WOW with *real* handwritten cards</h3>
-                    <p class="text-gray-600 mt-2">
-                        Our proprietary robots use real pens and ink for an unforgettable VIP touch.
-                    </p>
-                </div>
-                <!-- Predictable pricing -->
-                <div class="bg-white p-6 rounded-md shadow-md">
-                    <div class="flex justify-center mb-4">
-                        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-                            <p class="text-gray-500">[Stamp Icon]</p>
-                        </div>
-                    </div>
-                    <h3 class="text-xl font-semibold">Predictable pricing</h3>
-                    <p class="text-gray-600 mt-2">
-                        Unlike CPCs, postage rates don’t change based on competition or who you’re targeting.
-                    </p>
-                </div>
-                <!-- Complimentary concierge service -->
-                <div class="bg-white p-6 rounded-md shadow-md">
-                    <div class="flex justify-center mb-4">
-                        <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center">
-                            <p class="text-gray-500">[Concierge Icon]</p>
-                        </div>
-                    </div>
-                    <h3 class="text-xl font-semibold">Complimentary concierge service</h3>
-                    <p class="text-gray-600 mt-2">
-                        DTC is in our DNA. Our pros will build your strategy and custom designs using battle-tested best practices.
-                    </p>
-                </div>
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
+          Everything your brand needs to make your brand
+          <span class="cursive text-teal-500 text-5xl">unforgettable</span>.
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <!-- Plug-and-play with your stack -->
+          <div class="bg-white p-6 rounded-md shadow-md">
+            <div class="flex justify-center mb-4">
+              <div
+                class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center"
+              >
+                <p class="text-gray-500">[Klaviyo/Shopify Icons]</p>
+              </div>
             </div>
+            <h3 class="text-xl font-semibold">Plug-and-play with your stack</h3>
+            <p class="text-gray-600 mt-2">
+              Native integrations provide seamless segmentation, automation and
+              tracking. No clunky spreadsheets.
+            </p>
+          </div>
+          <!-- Run campaigns on autopilot -->
+          <div class="bg-white p-6 rounded-md shadow-md">
+            <div class="flex justify-center mb-4">
+              <div
+                class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center"
+              >
+                <p class="text-gray-500">[Abandoned Cart Icon]</p>
+              </div>
+            </div>
+            <h3 class="text-xl font-semibold">Run campaigns on autopilot</h3>
+            <p class="text-gray-600 mt-2">
+              Ink profits while you sleep. Just set it and forget it.
+            </p>
+          </div>
+          <!-- Real-time ROI dashboard -->
+          <div class="bg-white p-6 rounded-md shadow-md">
+            <div class="flex justify-center mb-4">
+              <div
+                class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center"
+              >
+                <p class="text-gray-500">[ROI Dashboard Icon]</p>
+              </div>
+            </div>
+            <h3 class="text-xl font-semibold">Real-time ROI dashboard</h3>
+            <p class="text-gray-600 mt-2">
+              Track performance of every postcard by customer or discount code.
+              Your CFO will love it.
+            </p>
+          </div>
+          <!-- Deliver WOW with *real* handwritten cards -->
+          <div class="bg-white p-6 rounded-md shadow-md">
+            <div class="flex justify-center mb-4">
+              <div
+                class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center"
+              >
+                <p class="text-gray-500">[Handwritten Card Icon]</p>
+              </div>
+            </div>
+            <h3 class="text-xl font-semibold">
+              Deliver WOW with *real* handwritten cards
+            </h3>
+            <p class="text-gray-600 mt-2">
+              Our proprietary robots use real pens and ink for an unforgettable
+              VIP touch.
+            </p>
+          </div>
+          <!-- Predictable pricing -->
+          <div class="bg-white p-6 rounded-md shadow-md">
+            <div class="flex justify-center mb-4">
+              <div
+                class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center"
+              >
+                <p class="text-gray-500">[Stamp Icon]</p>
+              </div>
+            </div>
+            <h3 class="text-xl font-semibold">Predictable pricing</h3>
+            <p class="text-gray-600 mt-2">
+              Unlike CPCs, postage rates don’t change based on competition or
+              who you’re targeting.
+            </p>
+          </div>
+          <!-- Complimentary concierge service -->
+          <div class="bg-white p-6 rounded-md shadow-md">
+            <div class="flex justify-center mb-4">
+              <div
+                class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center"
+              >
+                <p class="text-gray-500">[Concierge Icon]</p>
+              </div>
+            </div>
+            <h3 class="text-xl font-semibold">
+              Complimentary concierge service
+            </h3>
+            <p class="text-gray-600 mt-2">
+              DTC is in our DNA. Our pros will build your strategy and custom
+              designs using battle-tested best practices.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Fast Launch Section -->
     <section class="py-16">
-        <div class="container mx-auto px-4 flex flex-col md:flex-row items-start">
-            <div class="md:w-1/4 text-left space-y-6">
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900">Fast launch. Fast results.</h2>
-                <h3 class="text-3xl font-bold text-teal-500 cursive">Here’s how.</h3>
-                <div class="space-y-4">
-                    <p class="text-gray-600">01 Segment</p>
-                    <p class="text-gray-600">02 Design</p>
-                    <p class="text-gray-600">03 Send<br>One-off announcements or automatically triggered flows. Customers receive their personalized cards within a week.</p>
-                    <p class="text-gray-600">04 Convert</p>
-                </div>
-            </div>
-            <div class="md:w-3/4 mt-8 md:mt-0"></div> <!-- Empty space for balance -->
+      <div class="container mx-auto px-4 flex flex-col md:flex-row items-start">
+        <div class="md:w-1/4 text-left space-y-6">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
+            Fast launch. Fast results.
+          </h2>
+          <h3 class="text-3xl font-bold text-teal-500 cursive">Here’s how.</h3>
+          <div class="space-y-4">
+            <p class="text-gray-600">01 Segment</p>
+            <p class="text-gray-600">02 Design</p>
+            <p class="text-gray-600">
+              03 Send<br />One-off announcements or automatically triggered
+              flows. Customers receive their personalized cards within a week.
+            </p>
+            <p class="text-gray-600">04 Convert</p>
+          </div>
         </div>
+        <div class="md:w-3/4 mt-8 md:mt-0"></div>
+        <!-- Empty space for balance -->
+      </div>
     </section>
 
     <!-- PostPilot is for DTC Section -->
     <section class="py-16">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
-                PostPilot is <span class="cursive text-teal-500 text-5xl">for DTC</span>
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                <!-- Testimonial 1: Helen Guo -->
-                <div class="bg-white p-6 rounded-md shadow-md">
-                    <div class="flex items-center justify-center mb-4">
-                        <div class="w-12 h-12 bg-gray-200 rounded-full"></div> <!-- Placeholder for Helen Guo's image -->
-                    </div>
-                    <p class="text-gray-600">
-                        “Using PostPilot for years. Good for re-engagement. And you can get creative with ssaging.”
-                    </p>
-                    <p class="mt-2 text-gray-900 font-semibold">Helen Guo</p>
-                    <p class="text-gray-600">@HelenGuo_</p>
-                </div>
-                <!-- Testimonial 2: Nathan Woods -->
-                <div class="bg-white p-6 rounded-md shadow-md">
-                    <div class="flex items-center justify-center mb-4">
-                        <div class="w-12 h-12 bg-gray-200 rounded-full"></div> <!-- Placeholder for Nathan Woods' image -->
-                    </div>
-                    <p class="text-gray-600">
-                        “Done a ton of winbacks to lapsed purchase that have *PostPilot team is one of my favs.”
-                    </p>
-                    <p class="mt-2 text-gray-900 font-semibold">Nathan Woods</p>
-                    <p class="text-gray-600">@HeIsNathan</p>
-                </div>
-                <!-- Testimonial 3: Chris Lander -->
-                <div class="bg-white p-6 rounded-md shadow-md">
-                    <div class="flex items-center justify-center mb-4">
-                        <div class="w-12 h-12 bg-gray-200 rounded-full"></div> <!-- Placeholder for Chris Lander's image -->
-                    </div>
-                    <p class="text-gray-600">
-                        “+1 for PostPilot. Have only done s, but it’s been wonderful. Their support is top notch. Super helpful every step, killer tool.”
-                    </p>
-                    <p class="mt-2 text-gray-900 font-semibold">Chris Lander</p>
-                    <p class="text-gray-600">@chrisBasis</p>
-                </div>
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
+          PostPilot is
+          <span class="cursive text-teal-500 text-5xl">for DTC</span>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <!-- Testimonial 1: Helen Guo -->
+          <div class="bg-white p-6 rounded-md shadow-md">
+            <div class="flex items-center justify-center mb-4">
+              <div class="w-12 h-12 bg-gray-200 rounded-full"></div>
+              <!-- Placeholder for Helen Guo's image -->
             </div>
-            <!-- Call to Action Button -->
-            <div class="mt-12">
-                <button class="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 text-lg font-semibold">
-                    TRY IT RISK-FREE
-                </button>
+            <p class="text-gray-600">
+              “Using PostPilot for years. Good for re-engagement. And you can
+              get creative with ssaging.”
+            </p>
+            <p class="mt-2 text-gray-900 font-semibold">Helen Guo</p>
+            <p class="text-gray-600">@HelenGuo_</p>
+          </div>
+          <!-- Testimonial 2: Nathan Woods -->
+          <div class="bg-white p-6 rounded-md shadow-md">
+            <div class="flex items-center justify-center mb-4">
+              <div class="w-12 h-12 bg-gray-200 rounded-full"></div>
+              <!-- Placeholder for Nathan Woods' image -->
             </div>
+            <p class="text-gray-600">
+              “Done a ton of winbacks to lapsed purchase that have *PostPilot
+              team is one of my favs.”
+            </p>
+            <p class="mt-2 text-gray-900 font-semibold">Nathan Woods</p>
+            <p class="text-gray-600">@HeIsNathan</p>
+          </div>
+          <!-- Testimonial 3: Chris Lander -->
+          <div class="bg-white p-6 rounded-md shadow-md">
+            <div class="flex items-center justify-center mb-4">
+              <div class="w-12 h-12 bg-gray-200 rounded-full"></div>
+              <!-- Placeholder for Chris Lander's image -->
+            </div>
+            <p class="text-gray-600">
+              “+1 for PostPilot. Have only done s, but it’s been wonderful.
+              Their support is top notch. Super helpful every step, killer
+              tool.”
+            </p>
+            <p class="mt-2 text-gray-900 font-semibold">Chris Lander</p>
+            <p class="text-gray-600">@chrisBasis</p>
+          </div>
         </div>
+        <!-- Call to Action Button -->
+        <div class="mt-12">
+          <button
+            class="bg-orange-500 text-white px-6 py-3 rounded-md hover:bg-orange-600 text-lg font-semibold"
+          >
+            TRY IT RISK-FREE
+          </button>
+        </div>
+      </div>
     </section>
 
     <!-- Case Study Section -->
     <section class="py-16">
-        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
-            <!-- Left Side: Image -->
-            <div class="md:w-1/2">
-                <div class="bg-gray-200 h-64 md:h-96 flex items-center justify-center rounded-md">
-                    <p class="text-gray-500">[Obvi Postcards Placeholder: Two postcards with 20% OFF]</p>
-                </div>
-            </div>
-            <!-- Right Side: Text and Stats -->
-            <div class="md:w-1/2 mt-8 md:mt-0 md:pl-8">
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight">
-                    How obvi Drives Profits with <span class="cursive text-teal-500 text-5xl">Hands-Off</span> Postcard Campaigns
-                </h2>
-                <p class="mt-4 text-lg text-gray-600">
-                    The supplements brand wanted to offset high ad costs and reach dormant customers. They scored 1000%+ ROIs.
-                </p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-                    <div>
-                        <p class="text-3xl font-bold text-gray-900">1468.6%</p>
-                        <p class="text-gray-600">ROAS</p>
-                    </div>
-                    <div>
-                        <p class="text-3xl font-bold text-gray-900">8.59%</p>
-                        <p class="text-gray-600">Conversion Rate</p>
-                    </div>
-                    <div>
-                        <p class="text-3xl font-bold text-gray-900">$73,457</p>
-                        <p class="text-gray-600">Sales Generated</p>
-                    </div>
-                </div>
-                <button class="mt-6 border border-gray-300 text-gray-600 px-6 py-3 rounded-md hover:bg-gray-100">
-                    READ CASE STUDY
-                </button>
-            </div>
+      <div
+        class="container mx-auto px-4 flex flex-col md:flex-row items-center"
+      >
+        <!-- Left Side: Image -->
+        <div class="md:w-1/2">
+          <div
+            class="bg-gray-200 h-64 md:h-96 flex items-center justify-center rounded-md"
+          >
+            <p class="text-gray-500">
+              [Obvi Postcards Placeholder: Two postcards with 20% OFF]
+            </p>
+          </div>
         </div>
-        <!-- Brand Logos -->
-        <div class="container mx-auto px-4 mt-12 flex justify-center space-x-8">
-            <p class="text-gray-600 font-bold">obvi</p>
-            <p class="text-gray-600 font-bold">BULLETPROOF</p>
-            <p class="text-gray-600 font-bold">BOOM!</p>
-            <p class="text-gray-600 font-bold">orbit baby</p>
+        <!-- Right Side: Text and Stats -->
+        <div class="md:w-1/2 mt-8 md:mt-0 md:pl-8">
+          <h2
+            class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight"
+          >
+            How obvi Drives Profits with
+            <span class="cursive text-teal-500 text-5xl">Hands-Off</span>
+            Postcard Campaigns
+          </h2>
+          <p class="mt-4 text-lg text-gray-600">
+            The supplements brand wanted to offset high ad costs and reach
+            dormant customers. They scored 1000%+ ROIs.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+            <div>
+              <p class="text-3xl font-bold text-gray-900">1468.6%</p>
+              <p class="text-gray-600">ROAS</p>
+            </div>
+            <div>
+              <p class="text-3xl font-bold text-gray-900">8.59%</p>
+              <p class="text-gray-600">Conversion Rate</p>
+            </div>
+            <div>
+              <p class="text-3xl font-bold text-gray-900">$73,457</p>
+              <p class="text-gray-600">Sales Generated</p>
+            </div>
+          </div>
+          <button
+            class="mt-6 border border-gray-300 text-gray-600 px-6 py-3 rounded-md hover:bg-gray-100"
+          >
+            READ CASE STUDY
+          </button>
         </div>
+      </div>
+      <!-- Brand Logos -->
+      <div class="container mx-auto px-4 mt-12 flex justify-center space-x-8">
+        <p class="text-gray-600 font-bold">obvi</p>
+        <p class="text-gray-600 font-bold">BULLETPROOF</p>
+        <p class="text-gray-600 font-bold">BOOM!</p>
+        <p class="text-gray-600 font-bold">orbit baby</p>
+      </div>
     </section>
 
     <!-- Try PostPilot Risk-Free Section -->
     <section class="bg-orange-500 py-16">
-        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
-            <!-- Left Side: Text -->
-            <div class="md:w-1/2 text-white">
-                <h2 class="text-4xl md:text-5xl font-bold">TRY POSTPILOT RISK-FREE</h2>
-                <p class="mt-4 text-lg">
-                    No contracts. No commitments. GUARANTEED results.*
-                </p>
-                <button class="mt-6 border border-white text-white px-6 py-3 rounded-md hover:bg-white hover:text-orange-500">
-                    GET STARTED
-                </button>
-                <div class="mt-4 flex items-center">
-                    <span class="text-yellow-400 text-xl">★ ★ ★ ★ ★</span>
-                    <span class="ml-2">5.0 Shopify Rating</span>
-                </div>
-                <p class="mt-2 text-sm">*for qualified brands with over $1M annual Shopify revenue.</p>
-            </div>
-            <!-- Right Side: Image -->
-            <div class="md:w-1/2 mt-8 md:mt-0">
-                <div class="bg-gray-200 h-64 md:h-96 flex items-center justify-center rounded-md">
-                    <p class="text-gray-500">[Hand Holding Postcard Placeholder: PAWS for some Puppy Deals]</p>
-                </div>
-            </div>
+      <div
+        class="container mx-auto px-4 flex flex-col md:flex-row items-center"
+      >
+        <!-- Left Side: Text -->
+        <div class="md:w-1/2 text-white">
+          <h2 class="text-4xl md:text-5xl font-bold">
+            TRY POSTPILOT RISK-FREE
+          </h2>
+          <p class="mt-4 text-lg">
+            No contracts. No commitments. GUARANTEED results.*
+          </p>
+          <button
+            class="mt-6 border border-white text-white px-6 py-3 rounded-md hover:bg-white hover:text-orange-500"
+          >
+            GET STARTED
+          </button>
+          <div class="mt-4 flex items-center">
+            <span class="text-yellow-400 text-xl">★ ★ ★ ★ ★</span>
+            <span class="ml-2">5.0 Shopify Rating</span>
+          </div>
+          <p class="mt-2 text-sm">
+            *for qualified brands with over $1M annual Shopify revenue.
+          </p>
         </div>
+        <!-- Right Side: Image -->
+        <div class="md:w-1/2 mt-8 md:mt-0">
+          <div
+            class="bg-gray-200 h-64 md:h-96 flex items-center justify-center rounded-md"
+          >
+            <p class="text-gray-500">
+              [Hand Holding Postcard Placeholder: PAWS for some Puppy Deals]
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Latest Trends & Insights Section -->
     <section class="py-16">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
-                Latest trends & <span class="cursive text-teal-500 text-5xl">insights</span>
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-                <!-- Blog 1 -->
-                <div class="bg-white p-6 rounded-md shadow-md">
-                    <div class="bg-gray-200 h-48 flex items-center justify-center rounded-md mb-4">
-                        <p class="text-gray-500">[Desk Setup Image Placeholder]</p>
-                    </div>
-                    <h3 class="text-xl font-semibold">3 Low-Cost Campaigns You MUST Run to Win BFCM</h3>
-                </div>
-                <!-- Blog 2 -->
-                <div class="bg-white p-6 rounded-md shadow-md">
-                    <div class="bg-gray-200 h-48 flex items-center justify-center rounded-md mb-4">
-                        <p class="text-gray-500">[Postcard Image Placeholder]</p>
-                    </div>
-                    <h3 class="text-xl font-semibold">Cut Through the Digital Clutter with Automated Postcard Marketing: The Definitive Guide to High ROI [2022]</h3>
-                </div>
-                <!-- Blog 3 -->
-                <div class="bg-white p-6 rounded-md shadow-md">
-                    <div class="bg-gray-200 h-48 flex items-center justify-center rounded-md mb-4">
-                        <p class="text-gray-500">[Thank You Postcard Image Placeholder]</p>
-                    </div>
-                    <h3 class="text-xl font-semibold">The Ultimate Guide to Thank You Notes for Ecommerce</h3>
-                </div>
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
+          Latest trends &
+          <span class="cursive text-teal-500 text-5xl">insights</span>
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <!-- Blog 1 -->
+          <div class="bg-white p-6 rounded-md shadow-md">
+            <div
+              class="bg-gray-200 h-48 flex items-center justify-center rounded-md mb-4"
+            >
+              <p class="text-gray-500">[Desk Setup Image Placeholder]</p>
             </div>
+            <h3 class="text-xl font-semibold">
+              3 Low-Cost Campaigns You MUST Run to Win BFCM
+            </h3>
+          </div>
+          <!-- Blog 2 -->
+          <div class="bg-white p-6 rounded-md shadow-md">
+            <div
+              class="bg-gray-200 h-48 flex items-center justify-center rounded-md mb-4"
+            >
+              <p class="text-gray-500">[Postcard Image Placeholder]</p>
+            </div>
+            <h3 class="text-xl font-semibold">
+              Cut Through the Digital Clutter with Automated Postcard Marketing:
+              The Definitive Guide to High ROI [2022]
+            </h3>
+          </div>
+          <!-- Blog 3 -->
+          <div class="bg-white p-6 rounded-md shadow-md">
+            <div
+              class="bg-gray-200 h-48 flex items-center justify-center rounded-md mb-4"
+            >
+              <p class="text-gray-500">
+                [Thank You Postcard Image Placeholder]
+              </p>
+            </div>
+            <h3 class="text-xl font-semibold">
+              The Ultimate Guide to Thank You Notes for Ecommerce
+            </h3>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-white py-8">
-        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-600">
-            <!-- Eco-Friendly Section -->
-            <div>
-                <div class="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center mb-4">
-                    <p class="text-gray-500">[ECO FRIENDLY Badge Placeholder]</p>
-                </div>
-                <p class="text-sm">
-                    Our paper is sourced from FSC-certified mills. We plant enough trees to more than double our paper usage.
-                </p>
-            </div>
-            <!-- Company Section -->
-            <div>
-                <h3 class="text-lg font-semibold mb-4">COMPANY</h3>
-                <ul class="space-y-2">
-                    <li><a href="#" class="hover:text-teal-500">About us</a></li>
-                    <li><a href="#" class="hover:text-teal-500">Partner program</a></li>
-                    <li><a href="#" class="hover:text-teal-500">Career</a></li>
-                    <li><a href="#" class="hover:text-teal-500">Contact us</a></li>
-                    <li><a href="#" class="hover:text-teal-500">Privacy Policy</a></li>
-                    <li><a href="#" class="hover:text-teal-500">Terms & conditions</a></li>
-                </ul>
-            </div>
-            <!-- Pricing & Contact Section -->
-            <div>
-                <h3 class="text-lg font-semibold mb-4">PRICING & CONTACT</h3>
-                <ul class="space-y-2">
-                    <li><a href="#" class="hover:text-teal-500">Pricing</a></li>
-                    <li><a href="#" class="hover:text-teal-500">Reviews</a></li>
-                    <li><a href="#" class="hover:text-teal-500">Direct Mail Academy</a></li>
-                    <li><a href="#" class="hover:text-teal-500">Success stories</a></li>
-                    <li><a href="#" class="hover:text-teal-500">Terms & conditions</a></li>
-                </ul>
-                <p class="mt-4 flex items-center"><span class="text-teal-500 mr-2">📧</span> <a href="mailto:support@postpilot.com" class="hover:text-teal-500">support@postpilot.com</a></p>
-                <p class="mt-2 text-sm">Printed with ♥ at our facility in South Carolina.</p>
-            </div>
+      <div
+        class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-600"
+      >
+        <!-- Eco-Friendly Section -->
+        <div>
+          <div
+            class="w-16 h-16 bg-gray-200 rounded-full flex items-center justify-center mb-4"
+          >
+            <p class="text-gray-500">[ECO FRIENDLY Badge Placeholder]</p>
+          </div>
+          <p class="text-sm">
+            Our paper is sourced from FSC-certified mills. We plant enough trees
+            to more than double our paper usage.
+          </p>
         </div>
-        <!-- Bottom Row -->
-        <div class="container mx-auto px-4 mt-8 flex flex-col md:flex-row justify-between items-center border-t border-gray-200 pt-4">
-            <div class="flex items-center mb-4 md:mb-0">
-                <span class="text-teal-500 text-2xl mr-2">📧</span> <!-- Placeholder for envelope icon -->
-                <span class="text-teal-500 font-bold">PostPilot</span>
-                <p class="ml-2 text-gray-600 text-sm">© 2022 PostPilot, Inc. All rights reserved.</p>
-            </div>
-            <div class="flex space-x-4">
-                <button class="border border-gray-300 text-gray-600 px-4 py-2 rounded-md hover:bg-gray-100">Login</button>
-                <button class="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600">Try it for free</button>
-            </div>
+        <!-- Company Section -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">COMPANY</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-teal-500">About us</a></li>
+            <li><a href="#" class="hover:text-teal-500">Partner program</a></li>
+            <li><a href="#" class="hover:text-teal-500">Career</a></li>
+            <li><a href="#" class="hover:text-teal-500">Contact us</a></li>
+            <li><a href="#" class="hover:text-teal-500">Privacy Policy</a></li>
+            <li>
+              <a href="#" class="hover:text-teal-500">Terms & conditions</a>
+            </li>
+          </ul>
         </div>
+        <!-- Pricing & Contact Section -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">PRICING & CONTACT</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-teal-500">Pricing</a></li>
+            <li><a href="#" class="hover:text-teal-500">Reviews</a></li>
+            <li>
+              <a href="#" class="hover:text-teal-500">Direct Mail Academy</a>
+            </li>
+            <li><a href="#" class="hover:text-teal-500">Success stories</a></li>
+            <li>
+              <a href="#" class="hover:text-teal-500">Terms & conditions</a>
+            </li>
+          </ul>
+          <p class="mt-4 flex items-center">
+            <span class="text-teal-500 mr-2">📧</span>
+            <a href="mailto:support@postpilot.com" class="hover:text-teal-500"
+              >support@postpilot.com</a
+            >
+          </p>
+          <p class="mt-2 text-sm">
+            Printed with ♥ at our facility in South Carolina.
+          </p>
+        </div>
+      </div>
+      <!-- Bottom Row -->
+      <div
+        class="container mx-auto px-4 mt-8 flex flex-col md:flex-row justify-between items-center border-t border-gray-200 pt-4"
+      >
+        <div class="flex items-center mb-4 md:mb-0">
+          <span class="text-teal-500 text-2xl mr-2">📧</span>
+          <!-- Placeholder for envelope icon -->
+          <span class="text-teal-500 font-bold">PostPilot</span>
+          <p class="ml-2 text-gray-600 text-sm">
+            © 2022 PostPilot, Inc. All rights reserved.
+          </p>
+        </div>
+        <div class="flex space-x-4">
+          <button
+            class="border border-gray-300 text-gray-600 px-4 py-2 rounded-md hover:bg-gray-100"
+          >
+            Login
+          </button>
+          <button
+            class="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600"
+          >
+            Try it for free
+          </button>
+        </div>
+      </div>
     </footer>
 
     <!-- JavaScript for Dropdown Toggle (Optional) -->
     <script>
-        // JavaScript can be added here if you want additional interactivity, but Tailwind's group-hover handles the dropdown for now.
+      // JavaScript can be added here if you want additional interactivity, but Tailwind's group-hover handles the dropdown for now.
     </script>
-</body>
+  </body>
 </html>
